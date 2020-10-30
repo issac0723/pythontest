@@ -1,9 +1,21 @@
-List = [] 
-for i in range(0,5):
-	num=int(input())
-	List.append(num)
-num6 = int(input())
-print(List)
-print('['+str(List[0])+', '+str(List[1])+', '+str(List[2])+']')
-print('['+str(List[-2])+', '+str(List[-1])+']')
-print('The number', num6 ,'appears', List.count(num6) ,'time(s) in the list.')
+#1
+user_num=int(input("Enter integer: "))
+squared=user_num*user_num
+cubed=squared*user_num
+print("You entered: ",user_num)
+print(user_num," squared is ",squared)
+print("And ",user_num," cubed is ",cubed," !!")
+user_num2=int(input("Enter another integer: "))
+print(user_num," + ",user_num2," is ",user_num+user_num2)
+print(user_num," * ",user_num2," is ",user_num*user_num2)
+
+#2
+user_num = int(input())
+print('Enter integer:')
+print('You entered:',user_num)
+print(user_num,'squared is',user_num * user_num)
+print('And', user_num,'cubed is',user_num * user_num * user_num,'!!')
+user_num1 = int(input())
+print('Enter another integer:')
+print(user_num, '+'user_num1,'is',user_num + user_num1)
+print(user_num,'*' user_num1,'is',user_num * user_num1)
